@@ -6,12 +6,12 @@ import TestComponent from "./components/test";
 function App() {
     return (
         <div className="App">
-            <TestComponent />
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
                 <p>
                     Edit <code>src/App.js</code> and save to reload.
                 </p>
+                <TestComponent />
                 <a
                     className="App-link"
                     href="https://reactjs.org"

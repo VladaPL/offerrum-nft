@@ -1,7 +1,7 @@
 import "./test.scss";
 
 const TestComponent = () => {
-    return <p className="test-scss">Hello world!!!</p>;
+    return <div className="test-scss">Hello world!!!</div>;
 };
 
 export default TestComponent;
