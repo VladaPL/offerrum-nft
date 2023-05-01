@@ -1,4 +1,4 @@
-import "./test.scss";
+import "./first-section.scss";
 
 const TestComponent = () => {
     return <div className="test-scss">Hello world!!!</div>;
