@@ -1,0 +1,24 @@
+@import './variables.scss';
+//$color-dark: #1D2532;
+
+.header {
+    background-color: $color-dark;
+
+    .nav {
+        color: $color-text-light;
+    }
+}
+
+.header__button {
+    width: 175px;
+    height: 51px;
+    background-color: transparent;
+    color: $color-text-light;
+    border-radius: 15px;
+    border: solid 1px white;
+}
+
+.header__button:hover {
+    color: $color-green;
+    border: solid 1px $color-green;
+}
