@@ -1,0 +1,19 @@
+@import '../../sass/variables.scss';
+
+.item__container {
+    max-width: 300px;
+    max-height: 300px;
+    background-color: $color-block-emoji;
+}
+
+.center-block__image {
+    width: 100px;
+    height: 100px;
+}
+
+.item__container-bottom {
+    width: 260px;
+    height: 30px;
+    background-color: $color-bottom-block-emoji;
+    border-radius: 0 0 15px 15px;
+}
