@@ -1,5 +1,4 @@
-@import './variables.scss';
-//$color-dark: #1D2532;
+@import '../../sass/variables.scss';
 
 .header {
     background-color: $color-dark;
@@ -19,6 +18,6 @@
 }
 
 .header__button:hover {
-    color: $color-green;
-    border: solid 1px $color-green;
+    color: $color-text-green;
+    border: solid 1px $color-text-green;
 }
