@@ -1,0 +1,24 @@
+@mixin WalsheimProMedium {
+    font-family: "GT Walsheim Pro", sans-serif;
+    font-weight: 500;
+    color: $color-text-dark;
+}
+
+@mixin font(
+            $family: Inter,
+            $size: 23px,
+            $height: $size,
+            $weight: normal,
+            $style: Regular,
+            $color: $color-text-light,
+            $letter-spacing: 1px
+        ) 
+    {
+        font-family: $family;
+        font-style: $style;
+        font-weight: $weight;
+        font-size: $size;
+        line-height: $height;
+        color: $color;
+        letter-spacing: $letter-spacing;
+    }

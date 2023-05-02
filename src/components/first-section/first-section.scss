@@ -1,7 +1,13 @@
-.first-section {  
+@import '../../sass/variables.scss';
+
+.first-section {
+    background-color: $color-dark; 
     .first-section__left-block {
         .first-section__top-text {
-            
+           font-family: Inter;
+           font-size: 72px;
+           letter-spacing: -3px;
+           color: $color-text-light;
         }
         .first-section__bottom-text {
 

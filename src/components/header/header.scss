@@ -15,9 +15,9 @@
     color: $color-text-light;
     border-radius: 15px;
     border: solid 1px white;
+    &:hover {
+        color: $color-text-green;
+        border: solid 1px $color-text-green;
+    }
 }
 
-.header__button:hover {
-    color: $color-text-green;
-    border: solid 1px $color-text-green;
-}
