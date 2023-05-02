@@ -7,18 +7,16 @@
 @mixin font(
             $family: Inter,
             $size: 23px,
-            $height: $size,
             $weight: normal,
             $style: Regular,
             $color: $color-text-light,
-            $letter-spacing: 1px
+            $letter-spacing: 0px
         ) 
     {
         font-family: $family;
         font-style: $style;
         font-weight: $weight;
         font-size: $size;
-        line-height: $height;
         color: $color;
         letter-spacing: $letter-spacing;
     }

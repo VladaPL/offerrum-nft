@@ -1,10 +1,28 @@
 @import '../../sass/variables.scss';
+@import '../../sass/base.scss';
+@import '../../sass/mixins.scss';
 
 .header {
     background-color: $color-dark;
-
-    .nav {
-        color: $color-text-light;
+    .header__container {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        height: 100%;
+        justify-content: space-between;
+        @include font();
+        .nav {
+            .nav__list {
+                padding-left: 370px;
+                display: flex;
+                list-style: none;
+                color: $color-text-gray;
+                .nav__item {
+                    margin-right: 105px;
+                    cursor: pointer;
+                }
+            }
+        }
     }
 }
 
@@ -13,8 +31,10 @@
     height: 51px;
     background-color: transparent;
     color: $color-text-light;
+    @include font($size: 16px);
     border-radius: 15px;
     border: solid 1px white;
+    cursor: pointer;
     &:hover {
         color: $color-text-green;
         border: solid 1px $color-text-green;
