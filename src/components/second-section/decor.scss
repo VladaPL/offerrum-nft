@@ -1,0 +1,30 @@
+@import '../../sass/mixins.scss';
+
+        
+.ball-blue { 
+    position: absolute;
+    top: 110px;
+    left: 170px;
+    width: 84px;
+    height: 84px;
+    background-image: url(../../images/blue-ball.png); 
+}
+.ball-normal { 
+    position: absolute;
+    top: -90px;
+    left: 1010px;
+    width: 152px;
+    height: 152px;
+    background-image: url(../../images/normal-ball.png); 
+}
+.ball-shadow { 
+    position: absolute;
+    top: 800px;
+    left: 980px;
+    width: 180px;
+    height: 180px;
+    background-image: url(../../images/shadow-ball.png); 
+}
+.decor {
+    @include decor-tools();
+}

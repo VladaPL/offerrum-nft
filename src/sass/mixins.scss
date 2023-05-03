@@ -22,3 +22,17 @@
         letter-spacing: $letter-spacing;
         line-height: $line-height;
     }
+
+
+@mixin decor-tools() {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+@mixin grid-location ($row-start, $row-end, $column-start, $column-end) {
+    grid-row-start: $row-start;
+    grid-row-end: $row-end;
+    grid-column-start: $column-start;
+    grid-column-end: $column-end;
+}

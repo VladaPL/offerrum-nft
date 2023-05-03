@@ -1,19 +1,61 @@
 @import '../../sass/variables.scss';
+@import '../../sass/mixins.scss';
 
-.item__container {
-    max-width: 300px;
-    max-height: 300px;
-    background-color: $color-block-emoji;
+
+.second-section {
+    padding-top: 195px;
+    padding-bottom: 200px;
+    background-color: $color-background-light;
+    .second-section__center-block {
+        position: relative;
+        min-height: 1093px;
+        background: $color-second-block-dark;
+        border-radius: 20px;
+        align-items: center;
+        .second-section__title {
+            margin: 0 auto;
+            padding: 130px 0 65px 0;
+            text-align: center;
+            @include font($size: 45px, $weight: 600px, $style: normal, $line-height: 130%);
+        }
+        .second-section__grid {
+            max-width: 650px;
+            margin: auto;
+            display: grid;
+            grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+            gap: 7%;
+            .grid__item {
+                @include font($size: 19px,$line-height: 132%);
+                letter-spacing: -0.7px;
+                .item__container {
+                    min-height: 270px;
+                    padding: 20px;
+                    border-radius: 20px;
+                    margin: auto;
+                    background-color: $color-block-emoji;
+                    text-align: center;
+                    .center-block__image {
+                        width: 150px;
+                        height: 150px;
+                    }
+        
+                }
+                .item__container-bottom {
+                    width: 260px;
+                    height: 20px;
+                    margin: auto;
+                    background-color: $color-bottom-block-emoji;
+                    border-radius: 0 0 15px 15px;
+                }
+            }
+        }
+    }
 }
 
-.center-block__image {
-    width: 100px;
-    height: 100px;
-}
 
-.item__container-bottom {
-    width: 260px;
-    height: 30px;
-    background-color: $color-bottom-block-emoji;
-    border-radius: 0 0 15px 15px;
-}
+
+
+
+
+
+
