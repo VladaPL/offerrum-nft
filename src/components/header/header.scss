@@ -11,6 +11,9 @@
         height: 100%;
         justify-content: space-between;
         @include font();
+        .heder__logo {
+            cursor: pointer;
+        }
         .nav {
             .nav__list {
                 padding-left: 370px;
@@ -20,6 +23,9 @@
                 .nav__item {
                     margin-right: 105px;
                     cursor: pointer;
+                    &:hover {
+                        color: $color-text-green;
+                    }
                 }
             }
         }
