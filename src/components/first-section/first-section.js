@@ -17,7 +17,10 @@ const FirstSection = () => {
                         Получи все нужные навыки для заработка<br/> на NFT всего
                         за 28 дней!
                     </p>
-                    <GreenButton text="Начать зарабатывать на NFT" />
+                    <div className="first-section__button">
+                        <GreenButton text="Начать зарабатывать на NFT" />
+                    </div>
+                    
                 </div>
             </div>
         </section>

@@ -24,6 +24,10 @@
             @include font($color: $color-text-gray, $line-height: 120%);
             margin: 0 0 75px 0;
         }
+        .first-section__button {
+            width: 331px;
+            height: 66px;
+        }
     }
 }
 
