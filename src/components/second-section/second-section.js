@@ -14,9 +14,13 @@ const SecondSection = () => {
         <section className="second-section">
             <div className="wrapper">
                 <div className="second-section__center-block">
+                    {/* Decor items start */}
+                    <div className="second-section__backlight second-section__backlight_left"></div>
+                    <div className="second-section__backlight second-section__backlight_right"></div>
                     <div className="ball-blue decor"></div>
                     <div className="ball-normal decor"></div>
                     <div className="ball-shadow decor"></div>
+                    {/* Decor items end */}
                     <h2 className="second-section__title">Что даст тебе обучение?</h2>
                     <div className="second-section__grid">
                         <div className="grid__item">

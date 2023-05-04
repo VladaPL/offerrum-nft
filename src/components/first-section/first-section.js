@@ -5,6 +5,7 @@ import GreenButton from "../GreenButton/green-button";
 const FirstSection = () => {
     return (
         <section className="first-section">
+            <div className="first-section__backlight"></div>
             <div className="wrapper">
             <div className="first-section__right-block">
                     <img className="first-section__image" src={manBig} alt="man" />
@@ -20,7 +21,6 @@ const FirstSection = () => {
                     <div className="first-section__button">
                         <GreenButton text="Начать зарабатывать на NFT" />
                     </div>
-                    
                 </div>
             </div>
         </section>

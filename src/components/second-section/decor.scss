@@ -1,5 +1,22 @@
 @import '../../sass/mixins.scss';
 
+.second-section__backlight {
+    position: absolute;
+    z-index: 1;
+    width: 440px;
+    height: 440px;
+    background: linear-gradient(170.98deg, rgba(95, 56, 255, 0.25) 25.59%, rgba(255, 14, 222, 0.25) 100.44%);
+    filter: blur(86px);
+    transform: rotate(11.97deg);
+}
+.second-section__backlight_left {
+    left: 100px;
+    top: 600px;
+}
+.second-section__backlight_right {
+    left: 800px;
+    top: 100px;
+}
         
 .ball-blue { 
     position: absolute;
