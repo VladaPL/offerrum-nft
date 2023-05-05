@@ -5,12 +5,24 @@
 .header {
     background-color: $color-dark;
     .header__container {
+        position: relative;
         display: flex;
         align-items: center;
         flex-wrap: nowrap;
         height: 100%;
         justify-content: space-between;
         @include font();
+        .header__backlight {
+            position: absolute;
+            z-index: 1;
+            width: 415px;
+            height: 415px;
+            top: -200px;
+            left: -210px;
+            background: linear-gradient(170.98deg, rgba(95, 56, 255, 0.35) 25.59%, rgba(255, 14, 222, 0.35) 100.44%);
+            filter: blur(86px);
+            transform: rotate(11.97deg);
+        }
         .heder__logo {
             position: relative;
             z-index: 1;

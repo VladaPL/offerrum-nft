@@ -9,10 +9,12 @@
     filter: blur(86px);
     transform: rotate(11.97deg);
 }
+
 .second-section__backlight_left {
     left: 100px;
     top: 600px;
 }
+
 .second-section__backlight_right {
     left: 800px;
     top: 100px;
@@ -26,6 +28,7 @@
     height: 84px;
     background-image: url(../../images/blue-ball.png); 
 }
+
 .ball-normal { 
     position: absolute;
     top: -90px;
@@ -34,6 +37,7 @@
     height: 152px;
     background-image: url(../../images/normal-ball.png); 
 }
+
 .ball-shadow { 
     position: absolute;
     top: 800px;
@@ -42,6 +46,7 @@
     height: 180px;
     background-image: url(../../images/shadow-ball.png); 
 }
+
 .decor {
     @include decor-tools();
 }

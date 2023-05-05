@@ -8,6 +8,7 @@ export default class Header extends Component {
             <header className="header">
                 <div className="wrapper">
                     <div className="header__container">
+                        <div className="header__backlight"></div>
                         <div className="heder__logo logo">
                             <img src={logo} alt="logo" />
                         </div>
