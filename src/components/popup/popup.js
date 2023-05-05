@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import GreenButton from "../GreenButton/green-button";
 import "./popup.scss";
 
 export default class Popup extends Component {
@@ -8,7 +7,7 @@ export default class Popup extends Component {
             <div className="popup__background">
                 <div className="popup">
                     <div className="backlight"></div>
-                    <div className="popup__close"></div>
+                    <div className="popup__close" onClick={this.props.closePopup}></div>
                     <div className="popup__container">
                         <h3 className="popup__title">Начни прямо сейчас!</h3>
                         <p className="popup__text">
@@ -18,7 +17,7 @@ export default class Popup extends Component {
                         <form className="popup__form" autoComplete="on">
                             <input className="popup__input" type="email" name="email" placeholder="Ваш email"/>
                             <div className="popup__button">
-                                <GreenButton text="Оплатить" />
+                                <button className="popup_green-button green-button">Оплатить</button>
                             </div>
                         </form>
                     </div>  
