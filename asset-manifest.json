@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/offerrum-nft/static/css/main.7e24e26e.css",
+    "main.js": "/offerrum-nft/static/js/main.6e2cf918.js",
+    "static/js/787.0d57b1f1.chunk.js": "/offerrum-nft/static/js/787.0d57b1f1.chunk.js",
+    "static/media/man-big.png": "/offerrum-nft/static/media/man-big.1cc24e70da0434b0e724.png",
+    "static/media/shadow-ball.png": "/offerrum-nft/static/media/shadow-ball.f663daa58fae391ce3a8.png",
+    "static/media/emoji-stars.png": "/offerrum-nft/static/media/emoji-stars.7b01c8cc34a5e20aba48.png",
+    "static/media/emoji-dollars.png": "/offerrum-nft/static/media/emoji-dollars.c2d74a15e40046fdf25a.png",
+    "static/media/emoji-tongue.png": "/offerrum-nft/static/media/emoji-tongue.c47005ede8de1cf30c05.png",
+    "static/media/emoji-glasses.png": "/offerrum-nft/static/media/emoji-glasses.3f7cc934a3418e230a73.png",
+    "static/media/normal-ball.png": "/offerrum-nft/static/media/normal-ball.ced136f98f7d3781324f.png",
+    "static/media/close-popup.svg": "/offerrum-nft/static/media/close-popup.c15368561e08099c7e0b.svg",
+    "static/media/logo-ntf.svg": "/offerrum-nft/static/media/logo-ntf.873badb55f5bcbbae93f65fd134f6ee2.svg",
+    "index.html": "/offerrum-nft/index.html",
+    "main.7e24e26e.css.map": "/offerrum-nft/static/css/main.7e24e26e.css.map",
+    "main.6e2cf918.js.map": "/offerrum-nft/static/js/main.6e2cf918.js.map",
+    "787.0d57b1f1.chunk.js.map": "/offerrum-nft/static/js/787.0d57b1f1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e24e26e.css",
+    "static/js/main.6e2cf918.js"
+  ]
+}
