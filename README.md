@@ -10,9 +10,7 @@ React, SCSS, GIT, HTML5, CSS3 (flex, grid), JavaScript, методология B
 
 https://vladapl.github.io/offerrum-nft/
 
-
 ![](https://github.com/VladaPL/offerrum-nft/raw/master/img-readme.png)
-
 
 Ключевые навыки:
 
@@ -21,6 +19,8 @@ https://vladapl.github.io/offerrum-nft/
 -   реализация popup-компонента;
 -   валидная семантическая вёрстка;
 -   название классов, согласно методологии BEM.
+
+Затраченное время - 16 часов.
 
 Адаптив сайта не реализован.
 Ознакомиться с моими навыками адаптивной верстки и реализацией бургер-меню можно в проекте Nootris (https://github.com/VladaPL/nootris).
