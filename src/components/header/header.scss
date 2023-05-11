@@ -31,12 +31,14 @@
         }
         .nav {
             .nav__list {
-                padding-left: 370px;
+                padding-left: 280px;
                 display: flex;
+                gap: 105px;
                 list-style: none;
                 color: $color-text-gray;
                 .nav__item {
-                    margin-right: 105px;
+                    //margin-right: 105px;
+                    flex: auto;
                     cursor: pointer;
                     &:hover {
                         color: $color-text-green;
@@ -61,4 +63,3 @@
         border: solid 1px $color-text-green;
     }
 }
-

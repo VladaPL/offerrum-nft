@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import logo from "../../images/logo-ntf.svg";
 import "./header.scss";
+import "./adaptive.scss";
 
 export default class Header extends Component {
     render() {
