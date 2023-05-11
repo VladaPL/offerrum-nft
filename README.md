@@ -11,7 +11,7 @@ React, SCSS, GIT, HTML5, CSS3 (flex, grid), JavaScript, методология B
 Deploy: https://vladapl.github.io/offerrum-nft/
 
 Screenshot:
-![](https://github.com/VladaPL/offerrum-nft/raw/main/img-readme.png)
+![](https://github.com/VladaPL/offerrum-nft/raw/master/img-readme.png)
 
 Description: адаптивная вёрстка макета из трех секций.
 
